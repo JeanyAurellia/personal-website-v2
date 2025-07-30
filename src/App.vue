@@ -3,6 +3,8 @@ import Navbar from './components/Navbar.vue'
 import HomePage from './components/LandingPage.vue'
 import ServicePage from './components/ServicePage.vue';
 import ProjectPage from './components/ProjectPage.vue';
+import ContactMe from './components/ContactMe.vue';
+import Footer from './components/Footer.vue';
 </script>
 
 <template>
@@ -16,8 +18,12 @@ import ProjectPage from './components/ProjectPage.vue';
     <div id="services" class="h-screen"> 
         <ServicePage/>
     </div>
-    <div id="project" class="h-screen"> 
+    <div id="project" class="h-full"> 
         <ProjectPage/>
     </div>
+    <div id="contact" class="h-screen"> 
+        <ContactMe/>
+    </div>
+    <Footer/>
   </main>
 </template>

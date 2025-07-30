@@ -19,7 +19,7 @@ import { Icon } from '@iconify/vue'
 
         <!-- Tombol tepat di bawah teks -->
         <div class="mt-4 flex gap-4">
-          <button class="bg-indigo-500 text-white px-4 py-2 rounded-md text-sm">📧 Email me</button>
+          <a href="#" class="bg-indigo-500 text-white px-4 py-2 rounded-md text-sm">📧 Email me</a>
           <a
             href="#"
             class="text-white text-sm px-4 py-2 rounded-md border border-white hover:bg-white hover:text-black transition"
