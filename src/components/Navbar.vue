@@ -8,6 +8,6 @@
       <li><a href="#services">Services</a></li>
       <li><a href="#project">My Project</a></li>
     </ul>
-    <button class="bg-indigo-500 text-white px-4 py-2 rounded-md text-sm">Contact Us</button>
+    <a href="#contact" class="bg-indigo-500 text-white px-4 py-2 rounded-md text-sm">Contact Me</a>
   </nav>
 </template>
